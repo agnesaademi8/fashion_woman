@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ecommerce</title>
+      <!-- BoxIcons -->
+      <link
+         href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+         rel="stylesheet"
+      />
+      <!-- Style  -->
+      <link rel="stylesheet" href="assets/css/style.css" />
+   </head>
+   <body>
+      <!-- HEADER -->
+
+      <header class="list__header">
+         <nav class="nav bd-grid">
+            <div>
+               <a href="#" class="logo__nav">Fashion</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link" active>Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#featured" class="nav__link">Featured</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">New</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#subscriber" class="nav__link">Subsciber</a>
+                  </li>
+               </ul>
+            </div>
+            <div>
+               <i class="bx bx-cart nav__cart"></i>
+               <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+            </div>
+         </nav>
+      </header>
+
+      <main class="list_main">
+         <section class="home__container bd-grid" id="home">
+            <div class="home__data">
+               <h1 class="home__title">NEW <br /><span>ARRIVALS</span></h1>
+               <a href="#featured" class="button">GO SHOPPING</a>
+            </div>
+
+            <img src="assets/images/home.png" alt="img" class="home__image" />
+         </section>
+      </main>
+
+      <!-- Collection  -->
+
+      <section class="collection section">
+         <div class="collection__container bd-grid">
+            <div class="collection__box">
+               <img
+                  src="assets/images/backpackMan.png"
+                  class="collection__image"
+                  alt=""
+               />
+
+               <div class="collection__data">
+                  <h2 class="collection__title">
+                     <span class="collection__subtitle"> Men </span><br />
+                     Lorem Impsum
+                  </h2>
+                  <a href="#" class="collection__links">View Collection</a>
+               </div>
+            </div>
+
+            <div class="collection__box">
+               <div class="collection__data">
+                  <h2 class="collection__title">
+                     <span class="collection__subtitle"> Woman </span><br />
+                     Lorem Impsum
+                  </h2>
+                  <a href="#" class="collection__links">View Collection</a>
+               </div>
+               <img
+                  src="assets/images/backpackWoman.png"
+                  class="collection__image"
+                  alt=""
+               />
+            </div>
+         </div>
+      </section>
+
+      <!-- Featured -->
+      <section class="featured section" id="featured">
+         <h2 class="section-title">Featured Products</h2>
+         <a href="#" class="section-all">View All</a>
+
+         <div class="featured__container bd-grid">
+            <div class="featured__product">
+               <div class="featured__box">
+                  <div class="featured__new">NEW</div>
+                  <img
+                     src="assets/images/feature1.png"
+                     alt=""
+                     class="featured__image"
+                  />
+               </div>
+               <div class="featured__data">
+                  <h3 class="featured__name">Headphone lorem impsum</h3>
+                  <span class="featured__price">$25</span>
+               </div>
+            </div>
+            <div class="featured__product">
+               <div class="featured__box">
+                  <div class="featured__new">NEW</div>
+                  <img
+                     src="assets/images/feature2.png"
+                     alt=""
+                     class="featured__image"
+                  />
+               </div>
+               <div class="featured__data">
+                  <h3 class="featured__name">Mobile lorem impsum</h3>
+                  <span class="featured__price">$40</span>
+               </div>
+            </div>
+            <div class="featured__product">
+               <div class="featured__box">
+                  <div class="featured__new">NEW</div>
+                  <img
+                     src="assets/images/feature3.png"
+                     alt=""
+                     class="featured__image"
+                  />
+               </div>
+               <div class="featured__data">
+                  <h3 class="featured__name">Laptop lorem impsum</h3>
+                  <span class="featured__price">$65</span>
+               </div>
+            </div>
+            <div class="featured__product">
+               <div class="featured__box">
+                  <div class="featured__new">NEW</div>
+                  <img
+                     src="assets/images/feature4.png"
+                     alt=""
+                     class="featured__image"
+                  />
+               </div>
+               <div class="featured__data">
+                  <h3 class="featured__name">Touchpad lorem impsum</h3>
+                  <span class="featured__price">$215</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="offer section">
+         <div class="offer__bg">
+            <div class="offer__data">
+               <h2 class="offer__title">Special offer</h2>
+               <p class="offer__desc">
+                  Special offers discounts for woman this week only
+               </p>
+               <a href="#" class="button">SHOP NOW</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- New Arrivals -->
+      <section class="new section" id="new">
+         <h2 class="section-title">NEW ARRIVALS</h2>
+         <a href="#" class="section-all">View All</a>
+         <div class="new__container bd-grid">
+            <div class="new__box">
+               <img src="assets/images/new1.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+            <div class="new__box">
+               <img src="assets/images/new2.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+            <div class="new__box">
+               <img src="assets/images/new3.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+            <div class="new__box">
+               <img src="assets/images/new4.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+            <div class="new__box">
+               <img src="assets/images/new5.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+            <div class="new__box">
+               <img src="assets/images/new6.png" alt="" class="new__img" />
+
+               <div class="new__link">
+                  <a href="#" class="button">View Product</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter section" id="subscriber">
+         <div class="newsletter__container bd-grid">
+            <div class="newsletter__subscribe">
+               <h2 class="section-title">OUR NEWSLETTER</h2>
+               <p class="newsletter__desc">
+                  Promotion new products and sales. Directly to your
+               </p>
+
+               <form action="" class="newsletter__form">
+                  <input
+                     type="text"
+                     class="newsletter__input"
+                     placeholder="Enter your email"
+                  />
+                  <a href="#" class="button">SUBSCRIBER</a>
+               </form>
+            </div>
+         </div>
+      </section>
+
+      <!-- sponsores -->
+
+      <section class="sponsors section">
+         <div class="sponsors__container bd-grid">
+            <div class="sponsors__logo">
+               <img src="assets/images/logo1.png" alt="" />
+            </div>
+            <div class="sponsors__logo">
+               <img src="assets/images/logo2.png" alt="" />
+            </div>
+            <div class="sponsors__logo">
+               <img src="assets/images/logo3.png" alt="" />
+            </div>
+            <div class="sponsors__logo">
+               <img src="assets/images/logo4.png" alt="" />
+            </div>
+         </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer class="footer section">
+         <div class="footer__container bd-grid">
+            <div class="footer__box">
+               <h3 class="footer__title">Fashion Zara</h3>
+               <p class="footer__deal">Products store</p>
+               <a href="#">
+                  <img
+                     src="assets/images/footerstore1.png"
+                     alt=""
+                     class="footer__store"
+                  />
+               </a>
+               <a href="#">
+                  <img
+                     src="assets/images/footerstore1.png"
+                     alt=""
+                     class="footer__store"
+                  />
+               </a>
+            </div>
+
+            <div class="footer__box">
+               <h3 class="footer__title">Explore</h3>
+               <ul>
+                  <li><a href="#" class="footer__link">Home</a></li>
+                  <li><a href="#" class="footer__link">Featured</a></li>
+                  <li><a href="#" class="footer__link">New</a></li>
+                  <li><a href="#" class="footer__link">Subscribe</a></li>
+               </ul>
+            </div>
+            <div class="footer__box">
+               <h3 class="footer__title">Our Services</h3>
+               <ul>
+                  <li><a href="#" class="footer__link">Pricing</a></li>
+                  <li><a href="#" class="footer__link">Free Shipping</a></li>
+                  <li><a href="#" class="footer__link">Gift Cards</a></li>
+               </ul>
+            </div>
+            <div class="footer__box">
+               <h3 class="footer__title">Our Services</h3>
+               <a href="#" class="footer__social"
+                  ><i class="bx bxl-facebook-circle"></i
+               ></a>
+               <a href="#" class="footer__social"
+                  ><i class="bx bxl-instagram-alt"></i
+               ></a>
+               <a href="#" class="footer__social"
+                  ><i class="bx bxl-twitter"></i
+               ></a>
+            </div>
+         </div>
+         <p class="footer__copy">
+            &#169; 2022 copyright all right reserved - by AgnesaAdemi
+         </p>
+      </footer>
+
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
